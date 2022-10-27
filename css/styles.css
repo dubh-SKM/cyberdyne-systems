@@ -131,20 +131,23 @@ font-family: 'Aldrich', sans-serif;
 /* about cyberdyne section  */
 
 
-
-
-.abt-cyb {
+.abt-cyb-section {
     background-image: url(../img/chip.jpg);
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Wire One', sans-serif;
 }
-.cyb-card {
+
+
+.abt-cyb-text {
     background-color: rgba(0, 0, 0, 0.518);
-    flex-direction: column;
 }
-.cyb-card h2 {
+.abt-cyb-text h2 {
     font-family: 'VT323', monospace; 
+}
+.abt-cyb-image {
+    background-image: url(../img/cyb-1.jpg);
+    background-size: cover;
 }
 
 
