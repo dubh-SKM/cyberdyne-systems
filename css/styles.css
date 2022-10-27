@@ -202,7 +202,13 @@ font-family: 'Aldrich', sans-serif;
 }
 .apps-card-text {
     background-color: rgba(0, 0, 0, 0.356);
+    font-family: 'Wire One', sans-serif;  
 }
+.apps-card-text h3 {
+    font-family: 'VT323', monospace; 
+}
+
+
 .mil-apps-image {
     background-image: url(../img/box-national-defense.jpg);
 }
