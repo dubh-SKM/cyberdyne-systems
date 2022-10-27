@@ -1,0 +1,423 @@
+
+
+
+/* Potential Fonts 
+
+font-family: 'DotGothic16', sans-serif;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Silkscreen', cursive;
+font-family: 'Smooch Sans', sans-serif;
+font-family: 'Wire One', sans-serif;
+font-family: 'VT323', monospace; 
+
+
+font-family: 'Rubik Glitch', cursive;
+font-family: 'Tulpen One', cursive;
+font-family: 'Tourney', cursive;
+font-family: 'Six Caps', sans-serif;
+font-family: 'Raleway Dots', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'MuseoModerno', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Monofett', cursive;
+font-family: 'Michroma', sans-serif;
+font-family: 'Marcellus SC', serif;
+font-family: 'Kranky', cursive;
+font-family: 'Londrina Sketch', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Gugi', cursive;
+font-family: 'Geo', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Bungee Hairline', cursive;
+font-family: 'Aldrich', sans-serif;
+*/
+
+
+.red-line {
+    height: .1rem;
+    width: 20rem;
+}
+
+.navbar {
+
+}
+
+.cyberdyne-logo {
+    background-image: url(../img/cyberdyne-systems-logo.png);
+    background-size: cover;
+    height: 5rem;
+    width: 8rem;
+}
+
+/* home section  */
+
+.home {
+    background-image: url(../img/hero-image.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.411);
+    font-family: 'Wire One', sans-serif;
+}
+
+/* hero carousel  */
+
+.hero-carousel {
+    margin-top: 50rem;
+    position: relative;
+    font-family: 'Wire One', sans-serif;
+    font-family: 'Raleway', sans-serif;
+
+}
+  .hero-carousel-1 {
+    background-image: url(../img/box-cyberdyne-16x9-3-2.jpg);
+    background-position: center center;
+    background-size: cover;
+  }
+  .caption-1 {
+    font-family: 'Six Caps', sans-serif;
+  }
+  .hero-carousel-2 {
+
+    background-image: url(../img/box-skynet.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .caption-2 {
+    font-family: 'Marcellus SC', serif;
+  }
+  .hero-carousel-3 {
+ 
+    background-image: url(../img/box-t-800-16x9.png);
+    background-position: center center;
+    background-size: cover;
+  }
+  .caption-3 {
+    font-family: 'Rubik Glitch', cursive;
+  }
+
+
+
+/* .box-cyberdyne {
+    background-image: url(../img/box-cyberdyne.jpg);
+    background-size: cover;
+    font-family: 'Wire One', sans-serif;
+}
+.box-t800 {
+    background-image: url(../img/box-t800.jpg);
+    background-size: cover;
+    font-family: 'Wire One', sans-serif;
+}
+.box-skynet {
+    background-image: url(../img/box-skynet.jpg);
+    background-size: cover;
+    font-family: 'Wire One', sans-serif;
+}
+ */
+
+
+/* about cyberdyne section  */
+
+.abt-cyb {
+    background-image: url(../img/chip.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-family: 'Wire One', sans-serif;
+}
+.cyb-card {
+    background-color: rgba(0, 0, 0, 0.518);
+    
+}
+.cyb-card h2 {
+    font-family: 'VT323', monospace; 
+}
+
+
+/* project skynet section  */
+
+.skynet {
+    background-image: url(../img/box-skynet-16x9.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-family: 'Wire One', sans-serif;
+}
+.skynet-card {
+    background-color: rgba(0, 0, 0, 0.518);  
+}
+.skynet-card h2 {
+    font-family: 'VT323', monospace; 
+}
+.skynet-image {
+    background-image: url(../img/skynet-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 50%;
+}
+
+
+
+
+
+/* applications section  */
+
+.apps {
+    background-image: url(../img/bg7.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    /* min-height: 100vh; */
+}
+
+.apps-card {
+
+}
+.apps-card-image {
+    background-size: cover;
+    background-position: center;
+}
+.apps-card-text {
+    background-color: rgba(0, 0, 0, 0.356);
+}
+.mil-apps-image {
+    background-image: url(../img/box-national-defense.jpg);
+}
+.mil-apps-image-2 {
+    background-image: url(../img/military-applications.jpg);
+}
+.le-apps-image {
+    background-image: url(../img/le.jpg);
+}
+.le-apps-image-2 {
+    background-image: url(../img/box-law-enforcement-16x9.jpg);
+}
+.med-apps-image {
+    background-image: url(../img/medical.jpg);
+}
+.med-apps-image-2 {
+    background-image: url(../img/medical.jpg);
+}
+.soc-apps-image {
+    background-image: url(../img/box-social-programs-16x9.jpg);
+}
+.soc-apps-image-2 {
+    background-image: url(../img/box-social-programs-16x9.jpg);
+}
+
+/* subprojects section */
+
+.subprojects {
+    background-image: url(../img/skulls.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+/* t-800 subsection */
+
+.t-800 {
+
+}
+.t-800-image {
+    background-image: url(../img/t-800.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 30%;
+
+}
+.t-800-text {
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 45%;
+}
+.t-800-more-images {
+    width: 24%;
+}
+.t-800-image-2 {
+    background-image: url(../img/t-800-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50%;
+}
+.t-800-image-3 {
+    background-image: url(../img/t-800-3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50%;
+}
+
+
+/* t-1000 subsection */
+
+.t-1000 {
+
+}
+.t-1000-image {
+    background-image: url(../img/t-1000.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 30%;
+
+}
+.t-1000-text {
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 45%;
+}
+.t-1000-more-images {
+    width: 24%;
+}
+.t-1000-image-2 {
+    background-image: url(../img/t-1000-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50%;
+}
+.t-1000-image-3 {
+    background-image: url(../img/t-1000-3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50%;
+}
+
+
+
+
+
+.contact {
+    background-image: url(../img/barbedwire.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+}
+
+footer {
+    height: 15rem;
+    
+}
+
+
+
+
+/* Fonts  */
+
+/* font-family: 'Akronim', cursive;
+font-family: 'Aldrich', sans-serif;
+font-family: 'Alegreya SC', serif;
+font-family: 'Alumni Sans Collegiate One', sans-serif;
+font-family: 'Alumni Sans Inline One', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Aubrey', cursive;
+font-family: 'Averia Libre', cursive;
+font-family: 'Bahiana', cursive;
+font-family: 'Ballet', cursive;
+font-family: 'Barlow', sans-serif;
+font-family: 'Big Shoulders Inline Text', cursive;
+font-family: 'Blaka', cursive;
+font-family: 'Blaka Hollow', cursive;
+font-family: 'Bokor', cursive;
+font-family: 'Bungee Hairline', cursive;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Caesar Dressing', cursive;
+font-family: 'Chelsea Market', cursive;
+font-family: 'Cherish', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Codystar', cursive;
+font-family: 'Comforter Brush', cursive;
+font-family: 'Cute Font', cursive;
+font-family: 'Dokdo', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'DotGothic16', sans-serif;
+font-family: 'Dr Sugiyama', cursive;
+font-family: 'Eater', cursive;
+font-family: 'Emilys Candy', cursive;
+font-family: 'Encode Sans SC', sans-serif;
+font-family: 'Faster One', cursive;
+font-family: 'Fasthand', cursive;
+font-family: 'Finger Paint', cursive;
+font-family: 'Freckle Face', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Frijole', cursive;
+font-family: 'Gamja Flower', cursive;
+font-family: 'Geo', sans-serif;
+font-family: 'Germania One', cursive;
+font-family: 'Grenze Gotisch', cursive;
+font-family: 'Gugi', cursive;
+font-family: 'Henny Penny', cursive;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'IM Fell English SC', serif;
+font-family: 'IM Fell French Canon SC', serif;
+font-family: 'Jacques Francois Shadow', cursive;
+font-family: 'Jim Nightshade', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kelly Slab', cursive;
+font-family: 'Kranky', cursive;
+font-family: 'Lekton', sans-serif;
+font-family: 'Londrina Sketch', cursive;
+font-family: 'Loved by the King', cursive;
+font-family: 'Macondo', cursive;
+font-family: 'Marcellus SC', serif;
+font-family: 'Metal Mania', cursive;
+font-family: 'Michroma', sans-serif;
+font-family: 'Mirza', cursive;
+font-family: 'Monofett', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Mr Bedfort', cursive;
+font-family: 'MuseoModerno', cursive;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'New Tegomin', serif;
+font-family: 'Noto Sans Egyptian Hieroglyphs', sans-serif;
+font-family: 'Noto Serif Hebrew', serif;
+font-family: 'Noto Serif HK', serif;
+font-family: 'Odibee Sans', cursive;
+font-family: 'Passero One', cursive;
+font-family: 'Passions Conflict', cursive;
+font-family: 'Piedra', cursive;
+font-family: 'Pirata One', cursive;
+font-family: 'Play', sans-serif;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Princess Sofia', cursive;
+font-family: 'Prompt', sans-serif;
+font-family: 'Qahiri', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Raleway Dots', cursive;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Rubik Beastly', cursive;
+font-family: 'Rubik Dirt', cursive;
+font-family: 'Rubik Glitch', cursive;
+font-family: 'Rubik Marker Hatch', cursive;
+font-family: 'Rubik Maze', cursive;
+font-family: 'Ruslan Display', cursive;
+font-family: 'Russo One', sans-serif;
+font-family: 'Silkscreen', cursive;
+font-family: 'Six Caps', sans-serif;
+font-family: 'Skranji', cursive;
+font-family: 'Smooch Sans', sans-serif;
+font-family: 'Special Elite', cursive;
+font-family: 'Staatliches', cursive;
+font-family: 'Sunshiney', cursive;
+font-family: 'Supermercado One', cursive;
+font-family: 'Syne Mono', monospace;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Tourney', cursive;
+font-family: 'Train One', cursive;
+font-family: 'Tulpen One', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'UnifrakturMaguntia', cursive;
+font-family: 'Vibes', cursive;
+font-family: 'VT323', monospace;
+font-family: 'Wire One', sans-serif;
+font-family: 'Yatra One', cursive;
+font-family: 'Yuji Mai', serif;
+font-family: 'Zen Tokyo Zoo', cursive; */

@@ -7,91 +7,320 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&family=Aldrich&family=Alegreya+SC&family=Alumni+Sans+Collegiate+One&family=Alumni+Sans+Inline+One&family=Amatic+SC&family=Aubrey&family=Averia+Libre:wght@300;400&family=Bahiana&family=Ballet:opsz@16..72&family=Barlow&family=Big+Shoulders+Inline+Text:wght@200;400;900&family=Blaka&family=Blaka+Hollow&family=Bokor&family=Bungee+Hairline&family=Bungee+Inline&family=Bungee+Shade&family=Caesar+Dressing&family=Chelsea+Market&family=Cherish&family=Cinzel&family=Cinzel+Decorative&family=Codystar&family=Comforter+Brush&family=Cute+Font&family=Dokdo&family=Dosis&family=DotGothic16&family=Dr+Sugiyama&family=Eater&family=Emilys+Candy&family=Encode+Sans+SC&family=Faster+One&family=Fasthand&family=Finger+Paint&family=Freckle+Face&family=Fredericka+the+Great&family=Frijole&family=Gamja+Flower&family=Geo:ital@0;1&family=Germania+One&family=Grenze+Gotisch:wght@100;400;500&family=Gugi&family=Henny+Penny&family=IBM+Plex+Mono:wght@300&family=IM+Fell+English+SC&family=IM+Fell+French+Canon+SC&family=Jacques+Francois+Shadow&family=Jim+Nightshade&family=Josefin+Sans:wght@200;400&family=Kelly+Slab&family=Kranky&family=Lekton:ital@0;1&family=Londrina+Sketch&family=Loved+by+the+King&family=Macondo&family=Marcellus+SC&family=Metal+Mania&family=Michroma&family=Mirza&family=Monofett&family=Monoton&family=Montserrat+Subrayada&family=Montserrat:ital,wght@0,300;1,100&family=Mr+Bedfort&family=MuseoModerno:wght@200;400;700&family=Nanum+Myeongjo&family=New+Tegomin&family=Noto+Sans+Egyptian+Hieroglyphs&family=Noto+Serif+HK:wght@200&family=Noto+Serif+Hebrew&family=Odibee+Sans&family=Passero+One&family=Passions+Conflict&family=Piedra&family=Pirata+One&family=Play&family=Press+Start+2P&family=Princess+Sofia&family=Prompt:wght@300&family=Qahiri&family=Raleway+Dots&family=Raleway:wght@300&family=Roboto+Mono&family=Rubik+Beastly&family=Rubik+Dirt&family=Rubik+Glitch&family=Rubik+Marker+Hatch&family=Rubik+Maze&family=Ruslan+Display&family=Russo+One&family=Silkscreen&family=Six+Caps&family=Skranji&family=Smooch+Sans:wght@100;400&family=Special+Elite&family=Staatliches&family=Sunshiney&family=Supermercado+One&family=Syne+Mono&family=Titillium+Web&family=Tourney:wght@100;400&family=Train+One&family=Tulpen+One&family=Ubuntu&family=UnifrakturMaguntia&family=VT323&family=Vibes&family=Wire+One&family=Yatra+One&family=Yuji+Mai&family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a9006a973a.js" crossorigin="anonymous"></script>
 
-    <title>Hello, world!</title>
+
+    <title>Cyberdyne Systems</title>
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg bg-light">
+
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-black">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand text-white fs-1 text-uppercase" href="#">
+          <!-- Cyberdyne<br>Systems -->
+        </a>
+        <div class="cyberdyne-logo"></div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav fs-4 ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link text-white" href="#abt-cyb">About Cyberdyne</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#skynet">Project Skynet</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+              <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Applications
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#mil-apps">Military / National Defense Applications</a></li>
+                <li><a class="dropdown-item" href="#le-apps">Law Enforcement and Security Applications</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#med-apps">Medical Applications</a></li>
+                <li><a class="dropdown-item" href="#soc-apps">Social and Educational Applications</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Subprojects
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#t-800">Project T-800</a></li>
+                <li><a class="dropdown-item" href="#t-1000">Project T-1000</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link text-white" href="#">Contact</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </nav>
+    <div class="red-line"></div>
+
+
+    /* home section  */
+
+    <section class="home">
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col col-4 w-50 hero-text text-white fs-3 pt-5 rounded">
+            <p class="align-middle">Cyberdyne Systems, a California-based high-tech corporation develops electronics and computing technology that in the near future will provide the basis for the US military’s Skynet digital defense network— a neural network-based artificial intelligence system.</p>
+          </div>
+
+          <div class="col col-8 w-50 hero-carousel">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active hero-carousel-1">
+                    <!-- <img src="../cyberdyne-systems/img/box-cyberdyne-16x9.jpg" class="d-block w-100" alt="..."> -->
+                    <div class="carousel-caption caption-1 ">
+                      <h5 class="display-3">Cyberdyne Systems</h5>
+                      <p class="display-1">State of the art integrated AI / Cybernetic innovation</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item hero-carousel-2">
+                    <img src="../cyberdyne-systems/img/box-skynet-16x9.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption caption-2">
+                      <p class="display-1 text-danger">08.04.1997</p>
+                      <h5 class="display-1">Official SkyNet Launch Date</h5>                      </h5>
+                      <p class="display-3">Reserve Your Tickets Now!</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item hero-carousel-3">
+                    <!-- <img src="../cyberdyne-systems/img/box-t800-16x9.png" class="d-block w-100" alt="..."> -->
+                    <div class="carousel-caption caption-3">
+                      <h5 class="display-1">T-800</h5>
+                      <p class="display-3">A revolutionary new approach to cybernetic warfare</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>  
+      
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about cyberdyne section -->
+
+    <section class="abt-cyb text-white d-flex align-items-center justify-content-center" id="abt-cyb">
+    <div class="abt-cyb-text">
+      <div class="cyb-card fs-3 p-5 w-50 rounded">
+        <h2 class="display-2">About Cyberdyne Systems</h2>
+        <p>Cyberdyne systems started as a small manufacturing company during the tech boom of the early 1980's, with it's first plant opening in 1984.</p>
+        <p>Despite it's humble beginnings, Cyberdyne would combine the keen strategic foresight of future orientated thinkers with an aggressively relentless commitment to technological innovation, becoming within a few short years the premier global supplier of military technology to the western world.</p>
+        <p>Realizing the devastating impact that war has had on </p>
+        <p>During the late 1990s, the company recovered from the destruction of a Cyberdyne Building in 1995 and had resumed the development of Skynet, as well as creating T-70 and T1.</p>
+      </div>
+    </div>
+    </section>
+
+   <!-- project skynet section -->
+
+    <section class="skynet text-white d-flex align-items-center justify-content-center" id="skynet">
+      <div class="skynet-card fs-3 p-5 rounded d-flex">
+        <div class="skynet-text w-50">
+          <h2 class="display-2">Project Skynet</h2>
+          <p>Skynet is an artificial neural network-based conscious group mind and artificial general superintelligence system... Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quaerat rem et voluptatum itaque explicabo earum libero tenetur, expedita odit!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quae soluta eveniet architecto. Vel odit voluptas ut doloribus, adipisci soluta quis illo facere et repellendus impedit numquam, ex nemo optio.</p>
+        </div>
+        <div class="skynet-image w-50"></div>
+      </div>
+    </section>
+
+   <!-- applications section -->
+
+    <section class="apps">
+      <div class="container">
+
+          <!-- military applications card -->
+          <div class="row mil-apps p-4" id="mil-apps">
+            <div class="col col-4 apps-card-image mil-apps-image"></div>
+            <div class="col col-8 apps-card-text text-white p-4">
+              <h3>Military Applications</h3>
+              <p>Skynet was created by Cyberdyne Systems for SAC-NORAD (Strategic Air Command-North American Aerospace Defense Command).  After reverse engineering the CPU of a piece of recovered proprietary technology  and created a powerful new microprocessor for weapons systems, becoming a major contractor for the US military. Skynet was developed as a network of supercomputers that employs artificial intelligence in order to replace human beings as commercial and military aircraft pilots, and for the control of other military systems.  The application of technological solutions to military demands allows the redirection of human resources to innovation and reduces the risk of violence and trauma incurred by human soldiers in traditional warfare.</p>
+            </div>
+          <!-- law enforcement applications card -->
+            <div class="row le-apps apps-card m-3 p-0" id="le-apps">
+              <div class="col col-8 apps-card-text text-white  p-4">
+                <h3>Law Enforcement Applications</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nisi facere aut beatae eius nesciunt repudiandae deleniti consequatur? Aperiam quam eum corporis dolores non sit adipisci a nesciunt corrupti molestias, recusandae velit tempore porro optio cumque enim magni ipsa sunt blanditiis consequatur rerum et. Totam vel minus exercitationem quo reiciendis.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iusto, accusantium vero blanditiis dolor dolorem libero modi ex itaque doloremque, animi facere totam error ducimus. Reprehenderit quasi illo enim culpa minima similique delectus. Neque, harum. Cumque illo iste, necessitatibus, delectus nobis modi quis natus perferendis animi repudiandae aliquam expedita perspiciatis?</p>
+              </div>
+              <div class="col col-4 apps-card-image le-apps-image"></div>
+            </div>
+          <!-- medical applications card -->
+          <div class="row med-apps m-3 p-0" id="med-apps">
+            <div class="col apps-card-image med-apps-image"></div>
+            <div class="col apps-card-text text-white p-4">
+              <h3>Medical Applications</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo deleniti perspiciatis eius. Temporibus earum veniam cupiditate reprehenderit totam debitis aliquam ut veritatis illo sunt dolorem, expedita, animi amet? Quod unde asperiores quas nemo quia officiis autem, tenetur molestiae consequuntur commodi, voluptate laudantium ipsum voluptates dolorum vitae nobis? Consequatur, doloribus nihil.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis laboriosam fugiat dolorum. Nam totam illum molestiae ducimus ipsa sequi! Nisi expedita, excepturi sunt, assumenda necessitatibus quaerat cum deserunt ipsam sed modi recusandae atque numquam sequi natus aspernatur! Maxime beatae et quia! Possimus, cumque voluptate voluptates fuga quos asperiores adipisci ut.</p>
+            </div>
+        <!-- social applications card -->
+            <div class="row soc-apps apps-card m-3 p-0" id="soc-apps">
+              <div class="col col-8 apps-card-text text-white  p-4">
+                <h3>Social Applications</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita quidem quis doloribus, vel aut fugit autem praesentium aspernatur animi maxime, nisi ipsam dolores perspiciatis modi. Facilis debitis odit quis ea voluptatibus aliquam cum reprehenderit velit iste a natus delectus, amet ad! Rem iure excepturi illum praesentium modi tempore molestias atque.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="col col-4 apps-card-image soc-apps-image"></div>
+            </div>
+          </div>
+    </section>
+
+    <!-- subprojects section -->
+    <section class="subprojects">
+
+      <!-- t-800 subproject -->
+      <div class="t-800 p-5" id="t-800">
+        <div class="t-800-flex d-flex flex-row justify-content-between">
+          <div class="t-800-image"></div>
+          <div class="t-800-text text-white p-3">
+            <h1>Project T-800</h1>
+            <p>The Cyberdyne Systems Model 101, also known as the T-800 is a Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quaerat quam facilis consequatur nam numquam vero ullam pariatur nesciunt magnam.
+            <p>The 800 Series contains a Neural Net Processor CPU, or "learning computer", contained within the endoskull and protected by inertial shock dampers. The CPU, developed by Cyberdyne Systems, is one of the most powerful microprocessors ever built. As part of its vast internal databases, the T-800 contains detailed files on human anatomy and physiology to make it a more efficient in subduing anthropoid targets.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae numquam, nobis eaque dolorem eius consectetur cumque ab illum reprehenderit. Accusantium, natus fuga nulla cumque nobis quo autem! Quam, amet autem.</p>
+          </div>
+          <div class="t-800-more-images">
+            <div class="t-800-image-2"></div>
+            <div class="t-800-image-3"></div>
+          </div>
+        </div>
+      </div>
+      <!-- t-100 subproject -->
+      <div class="t-1000 p-5" id="t-800">
+        <div class="t-1000-flex d-flex flex-row justify-content-between">
+          <div class="t-1000-image"></div>
+          <div class="t-1000-text text-white p-3">
+            <h1>Project T-1000</h1>
+            <p>The T-1000 is a Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam molestiae, aspernatur impedit quam magnam illum cum officia debitis tenetur quos. </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ratione, eaque, exercitationem error neque fugit ipsam consequatur veritatis animi similique voluptas necessitatibus labore sequi expedita quaerat quisquam eum hic doloremque possimus suscipit! Ad voluptatum nam, repudiandae sapiente, deleniti a magnam sed aspernatur tempora debitis incidunt obcaecati dolorem, minima enim quos!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut et incidunt dolor fugiat. Ut modi iste at ea ex dolores, molestias officia quam culpa animi minima pariatur facilis? Deserunt.</p>
+          </div>
+          <div class="t-1000-more-images">
+            <div class="t-1000-image-2"></div>
+            <div class="t-1000-image-3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+     <!-- contact section -->
+
+     <section class="contact" id="contact">
+
+
+
+     </section>
+
+
+     <footer class="bg-black text-white d-flex justify-content-between">
+          <div class="col cyberdyne-logo"></div>
+          <div class="col">18144 El Camino Real, Sunnyvale, California</div>
+          <div class="col"></div>
+            <ul class="list-inline m-3">
+              <li class="fw-bold text-uppercase ">Company</li>
+              <li>Mission Statement</li>
+              <li>Corporate Structure</li>
+              <li>Leadership Team</li>
+              <li>Board of Directors</li>
+              <li>Government Partnerships</li>
+              <li>Human Resources</li>
+            </ul>
+          <div class="col"></div>
+            <ul class="list-inline m-3">
+              <li class="fw-bold text-uppercase">Other</li>
+              <li>Legal</li>
+              <li>Privacy Policy</li>
+              <li>Terms of Use</li>
+              <li>Lorem, ipsum.</li>
+              <li>Lorem, ipsum.</li>
+              <li>Lorem</li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul class="list-inline m-3">
+              <li class="fw-bold text-uppercase">Other</li>
+              <li>Legal</li>
+              <li>Privacy Policy</li>
+              <li>Terms of Use</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem, ipsum.</li>
+            </ul>
+          </div>
+      </div>
+
+
+
+
+     </footer>
+
+
+
+
+  <!-- <section class="boxes bg-black text-white">
 
     <div class="container">
-      <ul class="list-group">
-        <li class="list-group-item">An item</li>
-        <li class="list-group-item">A second item</li>
-        <li class="list-group-item">A third item</li>
-        <li class="list-group-item">A fourth item</li>
-        <li class="list-group-item">And a fifth one</li>
-      </ul>
+      <div class="row">
+        <div class="box-cyberdyne col col-3 border border-danger border-2 m-2 p-3 fs-1">
+          <p>CyberDyne:<br>Home of Cybernetic Innovation</p>
+        </div>
+        <div class="col">
+          <div class="row">
+            <div class="box-t800 col col-3 border border-danger border-2 m-2 p-3 fs-1">
+              <p>Project T-800</p>
+            </div>
+            <div class="box-skynet col col-6 border border-danger border-2 my-2 ms-2 fs-1">
+              <p>Official SkyNet Launch Date</p>
+              <p>08.04.97</p>
+              <button>Click here to Reserve your tickets!</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="box-national-defense col col-3 border border-danger border-2 m-2 p-3 fs-1">
+              <p>National Defense</p>
+            </div>
+            <div class="box-law-enforcement col col-3  border border-danger border-2 m-2 p-3 fs-1">
+              <p>Law Enforcement</p>  
+            </div>
+            <div class="box-social-programs col col-3  border border-danger border-2 m-2 p-3 fs-1">
+              <p>Social Programs</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </section> -->
 
-    <div class="mt-5 pt-5 pb-5 footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 col-xs-12 about-company">
-            <h2>Heading</h2>
-            <p class="pr-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p>
-            <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
-          </div>
-          <div class="col-lg-3 col-xs-12 links">
-            <h4 class="mt-lg-0 mt-sm-3">Links</h4>
-              <ul class="m-0 p-0">
-                <li>- <a href="#">Lorem ipsum</a></li>
-                <li>- <a href="#">Nam mauris velit</a></li>
-                <li>- <a href="#">Etiam vitae mauris</a></li>
-                <li>- <a href="#">Fusce scelerisque</a></li>
-                <li>- <a href="#">Sed faucibus</a></li>
-                <li>- <a href="#">Mauris efficitur nulla</a></li>
-              </ul>
-          </div>
-          <div class="col-lg-4 col-xs-12 location">
-            <h4 class="mt-lg-0 mt-sm-4">Location</h4>
-            <p>22, Lorem ipsum dolor, consectetur adipiscing</p>
-            <p class="mb-0"><i class="fa fa-phone mr-3"></i>(541) 754-3010</p>
-            <p><i class="fa fa-envelope-o mr-3"></i>info@hsdf.com</p>
-          </div>
-        </div>
-        <div class="row mt-5">
-          <div class="col copyright">
-            <p class=""><small class="text-white-50">© 2019. All Rights Reserved.</small></p>
-          </div>
-        </div>
-      </div>
-      </div>
+
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
