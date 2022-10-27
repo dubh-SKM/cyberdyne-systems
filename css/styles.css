@@ -158,21 +158,27 @@ font-family: 'Aldrich', sans-serif;
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
-    font-family: 'Wire One', sans-serif;
 }
-.skynet-card {
-    background-color: rgba(0, 0, 0, 0.518);  
+.skynet-text {
+    background-color: rgba(0, 0, 0, 0.518);
+    font-family: 'Wire One', sans-serif;  
 }
-.skynet-card h2 {
+.skynet-text h2 {
     font-family: 'VT323', monospace; 
 }
-.skynet-image {
-    background-image: url(../img/skynet-2.jpg);
+.skynet-image-1 {
+    background-image: url(../img/skynet-3.jpg);
     background-size: cover;
     background-position: center;
-    height: 60vh;
-    width: 50%;
 }
+/* .skynet-image-2 {
+    background-image: url(../img/box-skynet-2.jpg);
+    background-size: cover;
+}
+.skynet-image-3 {
+    background-image: url(../img/box-skynet-4.jpg);
+    background-size: cover;
+} */
 
 
 
