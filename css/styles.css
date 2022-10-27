@@ -43,6 +43,10 @@ font-family: 'Aldrich', sans-serif;
 .navbar {
 
 }
+.navbar-light .navbar-toggler-icon {
+    background-color: white;
+    border-radius: 5px;
+}
 
 .cyberdyne-logo {
     background-image: url(../img/cyberdyne-systems-logo.png);
@@ -63,7 +67,7 @@ font-family: 'Aldrich', sans-serif;
 .hero-text {
     background-color: rgba(0, 0, 0, 0.411);
     font-family: 'Wire One', sans-serif;
-    height: 100vh;
+    height: 100%;
 }
 
 /* hero carousel  */
