@@ -57,7 +57,8 @@ font-family: 'Aldrich', sans-serif;
     background-image: url(../img/hero-image.jpg);
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
+    height: 100%;
+    padding-top: 96px;
 }
 .hero-text {
     background-color: rgba(0, 0, 0, 0.411);
@@ -126,16 +127,18 @@ font-family: 'Aldrich', sans-serif;
 
 /* about cyberdyne section  */
 
+
+
+
 .abt-cyb {
     background-image: url(../img/chip.jpg);
     background-size: cover;
     background-attachment: fixed;
-    min-height: 100vh;
     font-family: 'Wire One', sans-serif;
 }
 .cyb-card {
     background-color: rgba(0, 0, 0, 0.518);
-    
+    flex-direction: column;
 }
 .cyb-card h2 {
     font-family: 'VT323', monospace; 
