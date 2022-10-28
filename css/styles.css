@@ -186,53 +186,53 @@ font-family: 'Aldrich', sans-serif;
 
 
 
-/* applications section  */
+/* programs section  */
 
-.apps {
+.prog {
     background-image: url(../img/bg5.jpg);
     background-size: cover;
     background-attachment: fixed;
     padding-bottom: 16px;
 }
 
-.apps-card {
+.prog-card {
 
 }
-.apps-card-image {
+.prog-card-image {
     background-size: cover;
     background-position: center;
 }
-.apps-card-text {
+.prog-card-text {
     background-color: rgba(0, 0, 0, 0.356);
     font-family: 'Wire One', sans-serif;  
 }
-.apps-card-text h3 {
+.prog-card-text h3 {
     font-family: 'VT323', monospace; 
 }
 
 
-.mil-apps-image {
+.mil-prog-image {
     background-image: url(../img/box-national-defense.jpg);
 }
-.mil-apps-image-2 {
-    background-image: url(../img/military-applications.jpg);
+.mil-prog-image-2 {
+    background-image: url(../img/military-programs.jpg);
 }
-.le-apps-image {
+.le-prog-image {
     background-image: url(../img/le.jpg);
 }
-.le-apps-image-2 {
+.le-prog-image-2 {
     background-image: url(../img/box-law-enforcement-16x9.jpg);
 }
-.med-apps-image {
+.med-prog-image {
     background-image: url(../img/medical.jpg);
 }
-.med-apps-image-2 {
+.med-prog-image-2 {
     background-image: url(../img/medical.jpg);
 }
-.soc-apps-image {
+.soc-prog-image {
     background-image: url(../img/box-social-programs-16x9.jpg);
 }
-.soc-apps-image-2 {
+.soc-prog-image-2 {
     background-image: url(../img/box-social-programs-16x9.jpg);
 }
 
