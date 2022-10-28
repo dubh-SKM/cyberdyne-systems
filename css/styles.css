@@ -248,7 +248,90 @@ font-family: 'Aldrich', sans-serif;
 
 /* t-800 subsection */
 
-.t-800 {
+/* new t-800 css */
+
+.accordion-item {
+
+}
+
+/* accordion section 1 */
+.acc-1 {
+    background-image: url(../img/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.t-800-terminator {
+    background-image: url(../img/t-800.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.t-800-proto-1 {
+    background-image: url(../img/t-800-proto-1.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 14rem;
+}
+.t-800-proto-2 {
+    background-image: url(../img/t-800-proto-2.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 11rem;
+}
+
+/* accordion section 2 */
+.acc-2 {
+    background-image: url(../img/bg9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.t-1000-terminator {
+    background-image: url(../img/t-1000.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.t-1000-proto-1 {
+    background-image: url(../img/t-1000-proto-1.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 11rem;
+}
+.t-1000-proto-2 {
+    background-image: url(../img/t-1000-proto-2.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 14rem;
+}
+
+/* accordion section 3 */
+.acc-3 {
+    background-image: url(../img/bg8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.future-projects {
+    background-image: url(../img/bg10.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.future-1 {
+    background-image: url(../img/the-future.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 11rem;
+}
+.future-2 {
+    background-image: url(../img/future-projects.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 14rem;
+}
+
+/* original t-800 css  */
+
+/* .t-800 {
 
 }
 .t-800-image {
@@ -277,12 +360,12 @@ font-family: 'Aldrich', sans-serif;
     background-size: cover;
     background-position: center;
     height: 50%;
-}
+} */
 
 
-/* t-1000 subsection */
+/* original t-1000 css*/
 
-.t-1000 {
+/* .t-1000 {
 
 }
 .t-1000-image {
@@ -311,7 +394,7 @@ font-family: 'Aldrich', sans-serif;
     background-size: cover;
     background-position: center;
     height: 50%;
-}
+} */
 
 
 /* contact section */
