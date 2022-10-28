@@ -171,14 +171,16 @@ font-family: 'Aldrich', sans-serif;
     background-size: cover;
     background-position: center;
 }
-/* .skynet-image-2 {
-    background-image: url(../img/box-skynet-2.jpg);
+.skynet-image-2 {
+    background-image: url(../img/skynet-2.jpg);
     background-size: cover;
+    height: 400px;
 }
 .skynet-image-3 {
-    background-image: url(../img/box-skynet-4.jpg);
+    background-image: url(../img/skynet-4.jpg);
     background-size: cover;
-} */
+    height: 400px;
+}
 
 
 
@@ -190,7 +192,7 @@ font-family: 'Aldrich', sans-serif;
     background-image: url(../img/bg5.jpg);
     background-size: cover;
     background-attachment: fixed;
-    /* min-height: 100vh; */
+    padding-bottom: 16px;
 }
 
 .apps-card {
@@ -241,6 +243,7 @@ font-family: 'Aldrich', sans-serif;
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
+
 }
 
 /* t-800 subsection */
