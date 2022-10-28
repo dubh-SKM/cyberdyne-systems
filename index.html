@@ -245,8 +245,30 @@
      <!-- contact section -->
 
      <section class="contact" id="contact">
+    <div class="pt-5 contact-heading text-center">
+      <h2 class="display-1 text-uppercase text-danger">Contact Cyberdyne</h2>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col m-2">
+          <form id="fs-frm" class="p-5 text-danger" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mvoywqjw" method="post">
+            <fieldset id="fs-frm-inputs">
+              <label class="fs-3" for="full-name" class="full-name ">Full Name</label>
+              <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+              <label class="fs-3" for="email-address">Email Address</label>
+              <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+              <label class="fs-3" for="message">Message</label>
+              <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
 
+    </div>
 
+      
 
      </section>
 
