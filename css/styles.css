@@ -43,11 +43,15 @@ font-family: 'Aldrich', sans-serif;
     border-radius: 5px;
 }
 
-.cyberdyne-logo {
+/* .cyberdyne-logo {
     background-image: url(../img/cyberdyne-systems-logo.png);
     background-size: cover;
     height: 5rem;
     width: 8rem;
+} */
+
+.navbar-cyberdyne-logo {
+    height: 5rem;
 }
 
 /* home section  */
@@ -270,13 +274,13 @@ font-family: 'Aldrich', sans-serif;
     background-image: url(../img/t-800-proto-1.jpg);
     background-size: cover;
     background-position: top;
-    height: 14rem;
+ 
 }
 .t-800-proto-2 {
     background-image: url(../img/t-800-proto-2.jpg);
     background-size: cover;
     background-position: top;
-    height: 11rem;
+
 }
 
 /* accordion section 2 */
@@ -295,7 +299,7 @@ font-family: 'Aldrich', sans-serif;
     background-image: url(../img/t-1000-proto-1.jpg);
     background-size: cover;
     background-position: top;
-    height: 11rem;
+    height: 40rem;
 }
 .t-1000-proto-2 {
     background-image: url(../img/t-1000-proto-2.jpg);
@@ -320,13 +324,13 @@ font-family: 'Aldrich', sans-serif;
     background-image: url(../img/the-future.jpg);
     background-size: cover;
     background-position: top;
-    height: 11rem;
+    height: 40rem;
 }
 .future-2 {
     background-image: url(../img/future-projects.jpg);
     background-size: cover;
     background-position: top;
-    height: 14rem;
+    height: 40rem;
 }
 
 /* original t-800 css  */
@@ -540,5 +544,63 @@ footer {
 }
 
 
+@media only screen and (min-width: 480px) {
+    .t-800-terminator {
+        height: 25rem;
+        width: 100%;
+    } 
+    .t-800-proto-1 {
+        height: 30rem;
+        width: 100%;
+    }
+    .t-800-proto-2 {
+        width: 100%;
+        height: 30rem;
+    }
+    .t-1000-terminator {
+        width: 100%;
+        height: 10rem;
+    }
+
+    .t-1000-proto-1 {
+        height: 30rem;
+        width: 100%;
+    }
+    .t-1000-proto-2 {
+        width: 100%;
+        height: 30rem;
+    }
+
+  }
+
+  @media only screen and (min-width: 768px) {
+    .t-800-terminator {
+        height: 50rem;
+        width: 100%;
+    } 
+    .t-800-proto-1 {
+        height: 35rem;
+        width: 100%;
+    }
+    .t-800-proto-2 {
+        width: 100%;
+        height: 35rem;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .t-800-terminator {
+        height: 40rem;
+        width: 100%;
+    } 
+    .t-800-proto-1 {
+        height: 45rem;
+        width: 100%;
+    }
+    .t-800-proto-2 {
+        width: 100%;
+        height: 45rem;
+    }
+  }
 
 /* Fonts  */
