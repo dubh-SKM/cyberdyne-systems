@@ -548,6 +548,10 @@ footer {
 
 
 @media only screen and (min-width: 480px) {
+    .hero-carousel {
+
+    }
+
     .t-800-terminator {
         height: 25rem;
         width: 100%;
